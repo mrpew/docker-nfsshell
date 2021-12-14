@@ -1,8 +1,18 @@
 # docker-nfsshell
 
+[![](https://img.shields.io/docker/pulls/mrpew/nfsshell?style=for-the-badge)](https://hub.docker.com/r/mrpew/nfsshell)
+
+
 Dockerized 64-bit [nfsshell](https://github.com/NetDirect/nfsshell).
 
 Runtime image base is `debian:oldstable`.
+
+
+## Usage
+
+`docker pull mrpew/nfsshell`  
+`docker run --rm -it nfsshell`
+
 
 ## License
 
